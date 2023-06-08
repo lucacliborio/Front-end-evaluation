@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>Exercício 1</title>
+  </head>
+
+  <!--1)	Desenvolva uma página com HTML, Boostrap e JavaScript para calcular o consumo de combustível de um automóvel em uma determinada viagem. A página deverá solicitar ao usuário:
+  •	Quantos quilômetros possui a viagem.
+  •	Quantos quilômetros o carro faz com um litro.
+  •	O preço do litro do combustível.
+  O programa deverá calcular e exibir:
+  •	Quantos litros de combustível serão gastos com a viagem.
+  •	Quanto de dinheiro será gasto com combustível na viagem. -->
+
+  <body>
+    <center>
+    <main class="container">
+      <div class="col-6 form-group">
+        <label>Quantos quilometros tem a viagem?</label>
+        <input id="txtkm" type="text" class="form-control">
+      </div>
+
+      <div class="col-6 form-group">
+        <label>Quantos quilometros o carro faz com 1 litro?</label>
+        <input id="txtkmcarro" type="text" class="form-control">
+      </div>
+
+      <div class="col-6 form-group">
+        <label>Qual o valor do combustível?</label>
+        <input id="txtvalorcombustivel" type="text" class="form-control">
+      </div>
+      
+      <div class="col-6 form-group">
+        <label>Quantos litros serão gastos: </label>
+        <input id="txtkmgastos" type="number" class="form-control" readonly>
+      </div>
+
+      <div class="col-6 form-group">
+        <label>Quanto de dinheiro ira gastar: </label>
+        <input id="txtdinheirogasto" type="number" class="form-control" readonly>
+      </div>
+
+      <div class="col-6 form-group">
+        <input id="btn" type="button" class="btn btn-primary" value="Cacular" onclick="calcular()">
+      </div>
+
+
+    </main>
+    </center>
+  
+
+   <script src="jsex1.js"></script>
+  </body>
+</html>

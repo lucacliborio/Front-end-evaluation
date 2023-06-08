@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>Exercício 2</title>
+  </head>
+  <!--2) A prefeitura da nossa cidade abriu uma linha de crédito para seus funcionários.
+        Sabe-se que o valor máximo da prestação não pode ultrapassar 30% do salário bruto.
+        Desenvolva um programa em JavaScript, que o usuário informe o salário bruto do funcionário
+        e o valor da prestação, e o programa informe se o empréstimo poderá ou não ser concedido.-->
+  <body>
+    <center>
+    <main class="container">
+      <div class="col-6 form-group">
+        <label>Informe seu salário: </label>
+        <input id="txtsalario" class="form-control" type="text">
+      </div>
+
+      <div class="col-6 form-group">
+        <label>Informe o valor da prestação: </label>
+        <input id="txtprestacao" class="form-control" type="text">
+      </div>
+
+      <div class="col-6 form-group">
+        <label>Resultado:</label>
+        <input id="txtresultado" class="form-control" type="text" readonly>
+      </div>
+
+      <div class="col-6 form-group">
+        <input class="btn btn-success" type="button" value="cacular" onclick="calcular()">
+      </div>
+    </main>
+    </center>
+
+    <script src="jsex2.js"></script>
+  </body>
+</html>

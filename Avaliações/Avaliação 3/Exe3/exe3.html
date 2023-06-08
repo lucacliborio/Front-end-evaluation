@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>Exercício 3</title>
+  </head>
+
+  <!--)Faça um programa em JavaScript que o usuário informe um peso e selecione um Planeta em um select
+      (dropDownList). O programa deverá calcular qual será o peso informado no planeta, de acordo com a
+      tabela e fórmula abaixo:
+        Planeta	Gravidade Relativa
+        Mercúrio	0,37
+        Vênus	0,88
+        Marte	0,38
+        Jupiter	2,64
+        Saturno	1,15
+        Urano	1,17
+-->
+  <body>
+  <center>
+  <main class="container">
+    <div class="col-6 form-group">
+      <label>Seleciona um Planete: </label>
+      <select class="form-control" id="ddplaneta">
+        <option value="1">Mercúrio</option>
+        <option value="2">Vênus</option>
+        <option value="3">Marte</option>
+        <option value="4">Jupiter</option>
+        <option value="5">Saturno</option>
+        <option value="6">Urano</option>
+      </select>
+    </div>
+
+    <div class="col-6 form-group">
+      <label>Informe um peso: </label>
+      <input id="txtpeso" class="form-control" type="text">
+    </div>
+
+    <div class="col-6 form-group">
+      <label>Resultado: </label>
+      <input id="txtresultado" class="form-control" type="text" readonly>
+    </div>    
+
+    <div class="col-6 form-group">
+      <input id="btn" class="btn btn-success" type="button" value="Calcular" onclick="calcular()">
+    </div>
+  </main>
+  </center>
+
+  <script src="jsex3.js"></script>
+  </body>
+</html>

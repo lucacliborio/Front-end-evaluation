@@ -1,0 +1,76 @@
+body{
+    background-image: url(Imagens/fundo.png);
+}
+
+.label{
+    font-weight: bold;
+    font-size: large;
+}
+
+.div{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+.div2{
+    background-color: rgb(240, 218, 235);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+.barra{
+    width: 90%;
+}
+
+.imagem{
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.texto{
+    font-weight: 600;
+    margin-left: 10%;
+}
+
+.texto2{
+    margin-left: 10%;
+}
+
+.titulo{
+    color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao{
+    background-color: rgb(240, 218, 235) ;
+}
+
+.link:link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.link:active{
+    text-decoration: none;
+    color: black;
+}
